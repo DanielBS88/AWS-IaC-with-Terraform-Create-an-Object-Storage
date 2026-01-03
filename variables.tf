@@ -10,8 +10,8 @@ variable "project_tag" {
   default     = "cmtr-k5vl9gpq"
 }
 
-variable "bucket_name" {
-  description = "Name of the S3 bucket to be created"
+variable "bucket_prefix" {
+  description = "Prefix for the S3 bucket name"
   type        = string
-  default     = "cmtr-k5vl9gpq-bucket-1767401280"
+  default     = "cmtr-k5vl9gpq-bucket"
 }
